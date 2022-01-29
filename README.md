@@ -1,4 +1,8 @@
  
+APi simples com Asp Net core feita a partir da documentação da microsoft. 
+    link: https://docs.microsoft.com/pt-br/learn/modules/build-web-api-aspnet-core/1-introduction
+
+
  Chamadas HTTP - 
 
     GetAll - 
