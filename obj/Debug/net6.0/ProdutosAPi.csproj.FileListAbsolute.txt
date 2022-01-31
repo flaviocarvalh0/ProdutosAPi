@@ -25,3 +25,30 @@ C:\Users\flavi\Desktop\ProdutosAPi\obj\Debug\net6.0\ProdutosAPi.dll
 C:\Users\flavi\Desktop\ProdutosAPi\obj\Debug\net6.0\ref\ProdutosAPi.dll
 C:\Users\flavi\Desktop\ProdutosAPi\obj\Debug\net6.0\ProdutosAPi.pdb
 C:\Users\flavi\Desktop\ProdutosAPi\obj\Debug\net6.0\ProdutosAPi.genruntimeconfig.cache
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\bin\Debug\net6.0\appsettings.json
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\bin\Debug\net6.0\ProdutosAPi.exe
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\bin\Debug\net6.0\ProdutosAPi.deps.json
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\bin\Debug\net6.0\ProdutosAPi.runtimeconfig.json
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\bin\Debug\net6.0\ProdutosAPi.dll
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\bin\Debug\net6.0\ref\ProdutosAPi.dll
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\bin\Debug\net6.0\ProdutosAPi.pdb
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\obj\Debug\net6.0\ProdutosAPi.csproj.AssemblyReference.cache
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\obj\Debug\net6.0\ProdutosAPi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\obj\Debug\net6.0\ProdutosAPi.AssemblyInfoInputs.cache
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\obj\Debug\net6.0\ProdutosAPi.AssemblyInfo.cs
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\obj\Debug\net6.0\ProdutosAPi.csproj.CoreCompileInputs.cache
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\obj\Debug\net6.0\ProdutosAPi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\obj\Debug\net6.0\ProdutosAPi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\obj\Debug\net6.0\scopedcss\bundle\ProdutosAPi.styles.css
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\obj\Debug\net6.0\ProdutosAPi.csproj.CopyComplete
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\obj\Debug\net6.0\ProdutosAPi.dll
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\obj\Debug\net6.0\ref\ProdutosAPi.dll
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\obj\Debug\net6.0\ProdutosAPi.pdb
+C:\Users\flavi\Desktop\Angular - cursos\cardapio\ProdutosAPi\obj\Debug\net6.0\ProdutosAPi.genruntimeconfig.cache

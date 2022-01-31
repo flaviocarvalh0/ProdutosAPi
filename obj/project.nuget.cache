@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XOhg4w6SGqOv6Mw7NAEZmjBSqcMOvccmUMlzRA5whSbR/A7y4Tcs4nq3wFolrf02w5Ot6q0AJnJGsya1I+ebxQ==",
+  "dgSpecHash": "05qoqXREBnHk2pg8EzB2ph8YbCbPMH/MbP2rJ6kZ92GQ4BDT+M6BDynVqJTUqraah/CSPgv6MtlGFMgDbCp7bQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\flavi\\Desktop\\ProdutosAPi\\ProdutosAPi.csproj",
+  "projectFilePath": "C:\\Users\\flavi\\Desktop\\Angular - cursos\\cardapio\\ProdutosAPi\\ProdutosAPi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\flavi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\flavi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

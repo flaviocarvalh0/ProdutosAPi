@@ -1,6 +1,6 @@
 
 using ProdutosAPi.Models;
-
+using ProdutosAPI.Enum;
 namespace ProdutosAPi.Service
 
 {
@@ -12,8 +12,48 @@ namespace ProdutosAPi.Service
         {
             Produtos = new List<Produto>
             {
-                new Produto {Id = 1, Name = "Steak", Preco = 13.00, Descricao = "carne e pão", UrlImagen = "imagen.com" },
-                new Produto {Id = 2, Name = "Pork", Preco = 18.00, Descricao = "carne e pão , porco", UrlImagen = "imagen2.com" }
+                new Produto{    id = 1,
+                                Categoria = Categoria.Hamburguer,
+                                nome = "Steak House",
+                                preco = "17.00",
+                                descricao = "Pão brioche, 2x smash de carne, ",
+                                urlImagen = "https://i.imgur.com/9uOQ0rR.jpg"
+
+                            },
+                new Produto{    id = 2,
+                                Categoria = Categoria.Hamburguer,
+                                nome = "Steak House",
+                                preco = "17.00",
+                                descricao = "Pão brioche, 2x smash de carne, ",
+                                urlImagen = "https://i.imgur.com/9uOQ0rR.jpg"
+
+                            },
+                new Produto{    id = 3,
+                                Categoria = Categoria.Bebida,
+                                nome = "Coca",
+                                preco = "17.00",
+                                descricao = "Pão brioche, 2x smash de carne, ",
+                                urlImagen = "https://i.imgur.com/9uOQ0rR.jpg"
+
+                            },
+                new Produto{    id = 4,
+                                Categoria = Categoria.Salgado,
+                                nome = "frango",
+                                preco = "17.00",
+                                descricao = "Pão brioche, 2x smash de carne, ",
+                                urlImagen = "https://i.imgur.com/9uOQ0rR.jpg"
+
+                            },
+                new Produto{    id = 5,
+                                Categoria = Categoria.Adicional,
+                                nome = "carne",
+                                preco = "17.00",
+                                descricao = "Pão brioche, 2x smash de carne, ",
+                                urlImagen = "https://i.imgur.com/9uOQ0rR.jpg"
+
+                            }
+
+
             };
 
 
@@ -21,11 +61,13 @@ namespace ProdutosAPi.Service
 
         public static List<Produto> GetAll() => Produtos!;
 
-        public static Produto? Get(int id) => Produtos!.FirstOrDefault(p => p.Id == id);
+        public static List<Produto> Get(Categoria categoria) => Produtos!.FindAll(p => p.Categoria == categoria);
+
+        public static Produto? Get(int id) => Produtos!.FirstOrDefault(p => p.id == id);
 
         public static void Add(Produto produto)
         {
-            produto.Id = proxId++;
+            produto.id = proxId++;
             Produtos!.Add(produto);
         }
 
@@ -38,7 +80,7 @@ namespace ProdutosAPi.Service
         }
         public static void Update(Produto produto)
         {
-            var index = Produtos!.FindIndex(p => p.Id == produto.Id);
+            var index = Produtos!.FindIndex(p => p.id == produto.id);
             if (index == -1)
                 return;
             Produtos[index] = produto;

@@ -213,11 +213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\flavi\\Desktop\\ProdutosAPi\\ProdutosAPi.csproj",
+      "projectUniqueName": "C:\\Users\\flavi\\Desktop\\Angular - cursos\\cardapio\\ProdutosAPi\\ProdutosAPi.csproj",
       "projectName": "ProdutosAPi",
-      "projectPath": "C:\\Users\\flavi\\Desktop\\ProdutosAPi\\ProdutosAPi.csproj",
+      "projectPath": "C:\\Users\\flavi\\Desktop\\Angular - cursos\\cardapio\\ProdutosAPi\\ProdutosAPi.csproj",
       "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flavi\\Desktop\\ProdutosAPi\\obj\\",
+      "outputPath": "C:\\Users\\flavi\\Desktop\\Angular - cursos\\cardapio\\ProdutosAPi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config",

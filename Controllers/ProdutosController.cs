@@ -1,11 +1,12 @@
 using ProdutosAPi.Models;
 using ProdutosAPi.Service;
 using Microsoft.AspNetCore.Mvc;
-
+using ProdutosAPI.Enum;
 
 namespace ProdutosAPI.Controllers;
 [ApiController]
 [Route("[controller]")]
+
 
 public class ProdutoController : ControllerBase
 {
@@ -28,12 +29,13 @@ public class ProdutoController : ControllerBase
         return produto;
     }
 
+
     //chamada http que cria um novo produto. O primeiro parâmetro na chamada de método CreatedAtAction representa um nome de ação. A palavra-chave nameof é usada para evitar hard-coding do nome da ação. CreatedAtAction usa o nome da ação para gerar um cabeçalho de resposta HTTP location com uma URL para a pizza recém-criada.
     [HttpPost]
     public IActionResult Create(Produto produto)
     {
         ProdutoService.Add(produto);
-        return CreatedAtAction(nameof(Create), new {id = produto.Id}, produto);
+        return CreatedAtAction(nameof(Create), new {id = produto.id}, produto);
     }
 
     // chamada http que recupera um produto e atualiza o mesmo, Responde apenas ao verbo HTTP PUT, conforme indicado pelo atributo [HttpPut].Requer que o valor do parâmetro id seja incluído no segmento da URL após produto/.Retorna IActionResult porque o tipo de retorno ActionResult não é conhecido até o runtime. Os métodos BadRequest, NotFound e NoContent retornam os tipos BadRequestResult, NotFoundResult e NoContentResult
@@ -41,7 +43,7 @@ public class ProdutoController : ControllerBase
     [HttpPut("{id}")]
     public IActionResult Update(int id, Produto produto)
     {
-        if(id != produto.Id)
+        if(id != produto.id)
             return BadRequest();
 
         var existeProduto = ProdutoService.Get(id);
