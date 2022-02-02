@@ -13,6 +13,9 @@ public class Category : ControllerBase
 {
     public Category(){}
 
+    [HttpGet]
+    public ActionResult<List<Categoria>> GetAllCategoria() => ProdutoService.GetAllCategoria();
+
     [HttpGet("{categoria}")]
     public ActionResult<List<Produto>> Get(Categoria categoria) 
     {
@@ -23,5 +26,7 @@ public class Category : ControllerBase
 
         return produto;
     }
+
+    
 
 }

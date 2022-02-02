@@ -7,9 +7,18 @@ namespace ProdutosAPi.Service
     public class ProdutoService
     {
         static List<Produto>? Produtos { get; }
+        static List<Categoria>? Categorias {get; }
         static int proxId = 3;
         static ProdutoService()
         {
+
+            Categorias = new List<Categoria>
+            {
+                    Categoria.Hamburguer,
+                    Categoria.Bebida,
+                    Categoria.Salgado,
+                    Categoria.Adicional
+            };
             Produtos = new List<Produto>
             {
                 new Produto{    id = 1,
@@ -59,9 +68,12 @@ namespace ProdutosAPi.Service
 
         }
 
-        public static List<Produto> GetAll() => Produtos!;
+        public static List<Produto> GetAllProduto() => Produtos!;
 
         public static List<Produto> Get(Categoria categoria) => Produtos!.FindAll(p => p.Categoria == categoria);
+
+        public static List<Categoria> GetAllCategoria() => Categorias!;     
+
 
         public static Produto? Get(int id) => Produtos!.FirstOrDefault(p => p.id == id);
 

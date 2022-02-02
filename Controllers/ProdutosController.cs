@@ -14,7 +14,7 @@ public class ProdutoController : ControllerBase
 
     //Chamada Http que pega todos os itens da List de produtos
     [HttpGet]
-    public ActionResult<List<Produto>> GetAll() => ProdutoService.GetAll();
+    public ActionResult<List<Produto>> GetAll() => ProdutoService.GetAllProduto();
 
 
     //Chamada Http, porém, passando o id como parametro para recuperarmos apenas um produto. Consulta o banco de dados para uma pizza que corresponda ao parâmetro id fornecido.
